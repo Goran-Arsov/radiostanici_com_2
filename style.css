@@ -9,11 +9,14 @@
   
   header {
       text-align: center;
-      color: rgb(0, 0, 100);
+      color: rgb(222, 0, 0);
+      background-color: rgb(255, 255, 100);
+      border: 1px solid rgb(255, 255, 100);
   }
   
-  .rowcontainer {
-      position: relative;
+  nav {
+      font: 16px bold;
+      background-color: rgb(222, 0, 0);
   }
   
   .row {
@@ -22,34 +25,11 @@
   
   .perimeter {
       height: 72px;
-      border: 1px solid black;
-      padding: 2px;
-      /* margin: 1px; */
-  }
-  
-  header {
       border: 1px dashed black;
-  }
-  
-  .mainnavbar {
-      color: white;
-      font: 16px bold;
-      background-color: navy;
-      padding: 12px;
-  }
-  
-  .navbarclass {
-      background-color: white;
-      /* color: white; */
-      font: 14px bold Tahoma;
+      padding: 2px;
   }
   
   .googleadspace {
       height: 100px;
-      background-color: aquamarine;
-      padding: 5px;
-  }
-  /* .center {
-      margin: auto;
       padding: 2px;
-  } */
+  }
