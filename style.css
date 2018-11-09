@@ -1,0 +1,55 @@
+  * {
+      padding: 0px;
+      margin: 0px;
+  }
+  
+  body {
+      height: auto;
+  }
+  
+  header {
+      text-align: center;
+      color: rgb(0, 0, 100);
+  }
+  
+  .rowcontainer {
+      position: relative;
+  }
+  
+  .row {
+      background-color: rgb(255, 229, 182);
+  }
+  
+  .perimeter {
+      height: 72px;
+      border: 1px solid black;
+      padding: 2px;
+      /* margin: 1px; */
+  }
+  
+  header {
+      border: 1px dashed black;
+  }
+  
+  .mainnavbar {
+      color: white;
+      font: 16px bold;
+      background-color: navy;
+      padding: 12px;
+  }
+  
+  .navbarclass {
+      background-color: white;
+      /* color: white; */
+      font: 14px bold Tahoma;
+  }
+  
+  .googleadspace {
+      height: 100px;
+      background-color: aquamarine;
+      padding: 5px;
+  }
+  /* .center {
+      margin: auto;
+      padding: 2px;
+  } */
