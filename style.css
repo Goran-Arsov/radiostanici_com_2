@@ -5,13 +5,13 @@
   
   body {
       height: auto;
+      text-align: center;
   }
   
   header {
-      text-align: center;
       color: navy;
       background-color: white;
-      border: 1px solid white;
+      /* border: 1px solid white; */
   }
   
   nav {
@@ -27,10 +27,16 @@
       height: 72px;
       border: 1px dashed black;
       padding: 2px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
   }
-  /*.perimeter is descriptive, it will be deleted in the final file*/
+  /*the border is descriptive, it will be deleted in the final file*/
   
   .googleadspace {
+      display: inline;
+      float: none;
       height: 100px;
       padding: 2px;
   }
