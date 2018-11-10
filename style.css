@@ -9,18 +9,18 @@
   
   header {
       text-align: center;
-      color: rgb(222, 0, 0);
-      background-color: rgb(255, 255, 100);
-      border: 1px solid rgb(255, 255, 100);
+      color: navy;
+      background-color: white;
+      border: 1px solid white;
   }
   
   nav {
       font: 16px bold;
-      background-color: rgb(222, 0, 0);
+      background-color: navy;
   }
   
   .row {
-      background-color: rgb(255, 229, 182);
+      background-color: rgb(255, 239, 210);
   }
   
   .perimeter {
@@ -28,6 +28,7 @@
       border: 1px dashed black;
       padding: 2px;
   }
+  /*.perimeter is descriptive, it will be deleted in the final file*/
   
   .googleadspace {
       height: 100px;
